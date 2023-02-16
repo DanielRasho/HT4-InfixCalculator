@@ -4,11 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="" />
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/StackedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/InvertedMinAndMaxBoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/AnsiColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/MenuEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/org/project/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,12 +63,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT4/HT4/App_main/src/main/java/App_main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App_main/src/main/java/App_main" />
+      <recent name="$PROJECT_DIR$/App_main/src/main/java" />
+      <recent name="$PROJECT_DIR$/App_utils/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="App_main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +97,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676327390341</updated>
+      <workItem from="1676327391381" duration="1517000" />
+      <workItem from="1676328922930" duration="164000" />
+      <workItem from="1676329094333" duration="650000" />
+      <workItem from="1676329868153" duration="7312000" />
+      <workItem from="1676510580619" duration="41000" />
+      <workItem from="1676510633391" duration="518000" />
+      <workItem from="1676511199267" duration="968000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

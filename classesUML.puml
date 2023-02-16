@@ -1,0 +1,52 @@
+@startuml
+class App
+class FileReader
+class Controller
+class Calculator
+class CalculatorFactory
+class StackedArrayList
+class StackedVector
+class StackedLinkedList
+class StackedDoubleLinkedList
+class StackedVector
+interface ICalculator
+interface Stack<E> <<interface>>
+
+App <-- Controller
+Controller *-- CalculatorFactory
+Controller *- FileReader
+Calculator *-- Stack
+Calculator .|> ICalculator
+CalculatorFactory "creates" <-- Calculator
+Stack <|.. "implements" StackedArrayList
+Stack <|.. "implements" StackedVector
+Stack <|.. "implements" StackedLinkedList
+Stack <|.. "implements" StackedDoubleLinkedList
+class CalculatorFactory {
+    + getCalculator()
+}
+
+class Controller {
+    calculator: Calculator
+}
+
+class Calculator{
+    - stack: Stack<Double>
+    + getPrevious(): double
+    + evaluate(String): double
+}
+
+interface ICalculator <<interface>>{
+    evaluate(String): double
+    getPrevious(): double
+}
+
+interface Stack {
+    push(E): void
+    peek(): E
+    pop(): E
+    empty(): boolean
+    size(): int
+}
+
+@enduml
