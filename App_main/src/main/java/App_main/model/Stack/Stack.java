@@ -1,4 +1,4 @@
-package App_main.model;
+package App_main.model.Stack;
 
 import java.util.EmptyStackException;
 
@@ -44,9 +44,14 @@ public interface Stack<E> {
 
    /**
     * post: returns the number of elements in the stack
-    * 
     * @return The number of elements in the stack.
     */
    public int size();
+
+   /**
+    * pre: stack is not empty.
+    * post: stack is empty.
+    */
+   public void clear();
 
 }

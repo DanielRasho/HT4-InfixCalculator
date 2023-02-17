@@ -1,11 +1,16 @@
-package App_main.model;
+package App_main.model.Stack;
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
+import java.util.List;
 
-public class StackedArray<E> implements Stack<E> {
+public class ListStack<E> implements Stack<E> {
 
-    private ArrayList<E> data = new ArrayList<>();
+    protected List<E> data;
+
+    public ListStack(){
+        this.data = new ArrayList<>();
+    }
 
     /**
      * Add an item in the top of the stack
@@ -64,6 +69,14 @@ public class StackedArray<E> implements Stack<E> {
     @Override
     public int size() {
         return this.data.size();
+    }
+
+    /**
+     * Clear all Stack items.
+     */
+    @Override
+    public void clear() {
+        this.data.clear();
     }
 
     /**
