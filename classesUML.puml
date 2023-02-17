@@ -35,7 +35,7 @@ ListStack <-- "inherits" StackedLinkedList
 ListStack <-- "inherits" StackedDoubleLinkedList
 
 StackedDoubleLinkedList *-- DoubleLinkList
-
+Nodo <|-- "inherits" DoubleLinkList
 class App {
     + main(String[] args)
 }
@@ -104,6 +104,15 @@ class DoubleLinkList <E>{
     + clear()
     + size() : int
     + get() : E
+}
+class Nodo{
+    int dato;
+    Nodo siguiente;
+    Nodo anterior;
+    Nodo(int d)
+        dato = d;
+        siguiente = null;
+        anterior = null;
 }
 
 @enduml
