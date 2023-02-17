@@ -1,9 +1,59 @@
 package App_main;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import App_main.model.Calculator;
+import App_main.model.InfixTranslator;
+import App_main.model.Stack.*;
+import App_main.model.Stack.StackFactory;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class Controller {
+    File operationFile;
+    public Controller (File file){
+        this.operationFile = file;
+    }
 
+    public void start(){
+        // Fetching data
+        List<String> operations = fileToList(this.operationFile, "\n");
+        Stack<Double> selectedStack = StackFactory.getStack();
+        Calculator calculator = new Calculator(selectedStack);
+
+        // Calculating
+        List<Double> solutions = operations.stream()
+                .map(InfixTranslator::infixToPostFix)
+                .map(calculator::evaluate)
+                .collect(Collectors.toList());
+
+        // Output
+        solutions.forEach(System.out::println);
+    }
+
+    private List<String> fileToList(File file, String separator){
+        List<String> fragments = new ArrayList<>();
+
+        // INSTANTIATING SCANNER
+        Scanner read;
+        try {
+            read = new Scanner(file);
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+        // SETTING SEPARATOR
+        read.useDelimiter(separator);
+
+        // FINDING FRAGMENTS
+        while (read.hasNext())
+        {
+            fragments.add(read.next());
+        }
+        read.close();
+
+        return fragments;
+    }
 }
