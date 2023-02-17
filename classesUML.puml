@@ -41,17 +41,25 @@ class App {
 }
 
 class StackFactory {
-    + getCalculator()
+    + getStack() : Stack<Double>
+}
+
+class InfixTranslator{
+    + InfixToPostFix(String)
 }
 
 class Controller {
-    calculator: Calculator
+    - operationFile : File
+    + start()
+    - fileToList(String, String): ArrayList<String>
 }
 
 class Calculator{
     - stack: Stack<Double>
+    + Calculator() : Stack<Double>
     + getPrevious(): double
     + evaluate(String): double
+    - operatorsAsArray(String) : String[]
 }
 
 interface ICalculator <<interface>>{
@@ -65,6 +73,7 @@ interface Stack {
     pop(): E
     empty(): boolean
     size(): int
+    clear(): void
 }
 
 class ListStack{
@@ -88,6 +97,13 @@ class StackedLinkedList{
 }
 class StackedDoubleLinkedList{
     - data : DoubleLinkList<E>
+}
+class DoubleLinkList <E>{
+    + add(E)
+    + set(E, int)
+    + clear()
+    + size() : int
+    + get() : E
 }
 
 @enduml

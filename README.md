@@ -6,6 +6,16 @@ Elaborado con java 17 y maven.
 
 **Unit Test:** [*Aquí*](https://github.com/DanielRasho/HT4-InfixCalculator/tree/main/App_main/src/test/java/App_main)
 
+## Integrantes
+
+- Daniel Rayo 22933
+
+- Angela Rossana 22869
+
+- Edwing de León 22809 
+
+- Diego Linares 221256
+
 ---
 
 ## Cómo ejecutarlo?
