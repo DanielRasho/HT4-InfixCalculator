@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/ICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/StackedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_main/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/arrayUtils/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/InvertedMinAndMaxBoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/math/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/AnsiColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/MenuEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/ProgressBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/App_utils/printer/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App_utils/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="New Classes: Stack Implementations, and along with its own Stack Factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_utils/src/main/java/org/project/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -75,7 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,8 +63,30 @@
       <recent name="$PROJECT_DIR$/App_utils/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="App_main.model.Stack" />
       <recent name="App_main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App_main.App" />
+      <module name="App_main" />
+      <option name="PROGRAM_PARAMETERS" value="./App_main/testData.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,12 +102,61 @@
       <workItem from="1676329868153" duration="7312000" />
       <workItem from="1676510580619" duration="41000" />
       <workItem from="1676510633391" duration="518000" />
-      <workItem from="1676511199267" duration="968000" />
+      <workItem from="1676511199267" duration="4771000" />
+      <workItem from="1676585299805" duration="1000" />
+      <workItem from="1676585815555" duration="10021000" />
     </task>
+    <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
+      <created>1676595470250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676595470250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feature: Program now can read from external files to get operands.">
+      <created>1676595541428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676595541428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Class: InfixTranslator for translating expression from infix.">
+      <created>1676595584138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676595584138</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Classes: Stack Implementations, and along with its own Stack Factory">
+      <created>1676595681056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676595681056</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Feature: Now Calculator can work with operands bigger than 9." />
+    <MESSAGE value="Feature: Program now can read from external files to get operands." />
+    <MESSAGE value="New Class: InfixTranslator for translating expression from infix." />
+    <MESSAGE value="New Classes: Stack Implementations, and along with its own Stack Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Classes: Stack Implementations, and along with its own Stack Factory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

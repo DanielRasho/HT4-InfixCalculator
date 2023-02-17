@@ -1,28 +1,46 @@
 @startuml
+
 class App
-class FileReader
 class Controller
+class StackFactory
+class InfixTranslator
+
 class Calculator
-class CalculatorFactory
+interface ICalculator
+
+
 class StackedArrayList
 class StackedVector
 class StackedLinkedList
 class StackedDoubleLinkedList
 class StackedVector
-interface ICalculator
 interface Stack<E> <<interface>>
+abstract class ListStack
+
+class DoubleLinkList
+
 
 App <-- Controller
-Controller *-- CalculatorFactory
-Controller *- FileReader
-Calculator *-- Stack
-Calculator .|> ICalculator
-CalculatorFactory "creates" <-- Calculator
-Stack <|.. "implements" StackedArrayList
-Stack <|.. "implements" StackedVector
-Stack <|.. "implements" StackedLinkedList
-Stack <|.. "implements" StackedDoubleLinkedList
-class CalculatorFactory {
+Controller *-- StackFactory
+Controller *-- Calculator
+Controller *-- InfixTranslator
+
+Calculator ..|> ICalculator
+
+Stack <|.. "implements" ListStack
+StackFactory *-- Stack
+ListStack <-- "inherits" StackedArrayList
+ListStack <-- "inherits" StackedVector
+ListStack <-- "inherits" StackedLinkedList
+ListStack <-- "inherits" StackedDoubleLinkedList
+
+StackedDoubleLinkedList *-- DoubleLinkList
+
+class App {
+    + main(String[] args)
+}
+
+class StackFactory {
     + getCalculator()
 }
 
@@ -47,6 +65,29 @@ interface Stack {
     pop(): E
     empty(): boolean
     size(): int
+}
+
+class ListStack{
+    - data : List<E>
+    + push(E): void
+    + peek(): E
+    + pop(): E
+    + empty(): boolean
+    + size(): int
+    + clear(): void
+}
+
+class StackedArrayList{
+    - data : ArrayList<E>
+}
+class StackedVector{
+    - data : Vector<E>
+}
+class StackedLinkedList{
+    - data : LinkedList<E>
+}
+class StackedDoubleLinkedList{
+    - data : DoubleLinkList<E>
 }
 
 @enduml
