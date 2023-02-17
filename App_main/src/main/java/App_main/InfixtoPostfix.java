@@ -28,6 +28,11 @@ public static String infixToPostfix(String expresion) {
     }
     return postfix;
     }
+
+    private static boolean Operator(char c) {
+
+    }
+
     public static boolean isOperator(char c) {
         return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
     }
@@ -43,4 +48,4 @@ public static String infixToPostfix(String expresion) {
         }
     }
 }
-}
+
