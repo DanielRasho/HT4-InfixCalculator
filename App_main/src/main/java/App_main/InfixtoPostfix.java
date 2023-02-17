@@ -2,12 +2,13 @@ package App_main;
 import java.util.Stack;
 public class Interprete{
 public static String infixToPostfix(String expresion) {
+    
     Stack<Character> pila = new Stack<>();
     String postfix = "";
     for (int i = 0; i < expresion.length(); i++) {
         char c = expresion.charAt(i);
         if (Operator(c)) {
-            while (!pila.isEmpty() && pila.peek() != '(' && precedente(pila.peek()) >= precedente(c)) {
+            while (!pila.isEmpty() && pila.peek() != '(' && precedence(pila.peek()) >= precedence(c)) {
                 postfix += pila.pop();
             }
             pila.push(c);
@@ -27,4 +28,19 @@ public static String infixToPostfix(String expresion) {
     }
     return postfix;
     }
+    public static boolean isOperator(char c) {
+        return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
+    }
+    public static int precedence(char c) {
+        if (c == '+' || c == '-') {
+            return 1;
+        } else if (c == '*' || c == '/') {
+            return 2;
+        } else if (c == '^') {
+            return 3;
+        } else {
+            return 0;
+        }
+    }
+}
 }
