@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="New Classes: Stack Implementations, and along with its own Stack Factory">
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
+      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/Stack/ListStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classesUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
     </list>
@@ -19,6 +30,7 @@
       <list>
         <option value="UML Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -45,8 +57,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT4/HT4/App_main/src/main/java/App_main",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT4/HT4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,12 +76,19 @@
       <recent name="$PROJECT_DIR$/App_main/src/main/java" />
       <recent name="$PROJECT_DIR$/App_utils/src/main/java" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="App_main.model.Stack" />
+      <recent name="App_main.model" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="App_main.model.Stack" />
       <recent name="App_main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ListStackTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App_main.App" />
       <module name="App_main" />
@@ -82,8 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model.Stack" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.Stack.ListStackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.ListStackTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListStackTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -104,7 +162,7 @@
       <workItem from="1676510633391" duration="518000" />
       <workItem from="1676511199267" duration="4771000" />
       <workItem from="1676585299805" duration="1000" />
-      <workItem from="1676585815555" duration="10021000" />
+      <workItem from="1676585815555" duration="12089000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
       <created>1676595470250</created>
@@ -134,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676595681056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Documentation: README and UML diagram created.">
+      <created>1676596197402</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676596197402</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +221,8 @@
     <MESSAGE value="Feature: Program now can read from external files to get operands." />
     <MESSAGE value="New Class: InfixTranslator for translating expression from infix." />
     <MESSAGE value="New Classes: Stack Implementations, and along with its own Stack Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Classes: Stack Implementations, and along with its own Stack Factory" />
+    <MESSAGE value="Add Documentation: README and UML diagram created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Documentation: README and UML diagram created." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

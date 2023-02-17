@@ -9,6 +9,10 @@ import java.util.List;
 
 public class StackFactory {
 
+    /**
+     * Creates a Stack according to what a user wants.
+     * @return Desired Stack by the user.
+     */
     public static Stack<Double> getStack(){
         Menu menu = new Menu()
                 .header("Which Stack Implementation would you like to use?")

@@ -4,12 +4,9 @@ import App_utils.printer.AnsiColors;
 
 import java.io.File;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
+    /** Starts execution by getting the file where operations are*/
     public static void main(String[] args) {
         // IF NO FILE PATH GIVEN.
         if (args.length == 0){

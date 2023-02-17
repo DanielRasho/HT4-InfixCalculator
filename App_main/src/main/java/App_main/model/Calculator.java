@@ -2,10 +2,6 @@ package App_main.model;
 
 import App_main.model.Stack.Stack;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Calculator implements ICalculator {
 
     private double lastCalculation = 0;
@@ -61,6 +57,11 @@ public class Calculator implements ICalculator {
         return lastCalculation;
     }
 
+    /**
+     * Divides an expresion in a list, where spaces are the separators.
+     * @param expression Pstfix expresion
+     * @return List of operators and operations.
+     */
     private String[] operatorsAsArray(String expression){
         return expression.trim().split(" ");
     }

@@ -13,10 +13,12 @@ import java.util.stream.Collectors;
 
 public class Controller {
     File operationFile;
+
     public Controller (File file){
         this.operationFile = file;
     }
 
+    /** Runs the calculator by fetching the info, to then calculate it*/
     public void start(){
         // Fetching data
         List<String> operations = fileToList(this.operationFile, "\n");
@@ -33,6 +35,12 @@ public class Controller {
         solutions.forEach(System.out::println);
     }
 
+    /**
+     * Reads a file an return it as an array of tokens
+     * @param file File to read.
+     * @param separator String that define where a Token end.
+     * @return List of tokens.
+     */
     private List<String> fileToList(File file, String separator){
         List<String> fragments = new ArrayList<>();
 
