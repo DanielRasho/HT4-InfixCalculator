@@ -7,7 +7,7 @@ public static String infixToPostfix(String expresion) {
     String postfix = "";
     for (int i = 0; i < expresion.length(); i++) {
         char c = expresion.charAt(i);
-        if (Operator(c)) {
+        if (isOperator(c)) {
             while (!pila.isEmpty() && pila.peek() != '(' && precedence(pila.peek()) >= precedence(c)) {
                 postfix += pila.pop();
             }
