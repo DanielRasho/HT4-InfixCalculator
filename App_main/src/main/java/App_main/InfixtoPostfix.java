@@ -19,6 +19,7 @@ public static String infixToPostfix(String expresion) {
                 postfix += pila.pop();
             }
             pila.pop();
+            postfix +=" ";
         } else {
             postfix += c;
         }
