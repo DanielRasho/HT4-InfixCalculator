@@ -25,6 +25,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="feb50d89-5c20-463d-8a18-d56e28adec51" />
+        <option name="url" value="https://github.com/DanielRasho/HT4-InfixCalculator.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -161,6 +174,8 @@
       <workItem from="1676585815555" duration="12089000" />
       <workItem from="1676655109021" duration="838000" />
       <workItem from="1676656826458" duration="176000" />
+      <workItem from="1676745490614" duration="400000" />
+      <workItem from="1676746917553" duration="7338000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
       <created>1676595470250</created>

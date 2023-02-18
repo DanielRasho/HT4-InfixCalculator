@@ -99,20 +99,26 @@ class StackedDoubleLinkedList{
     - data : DoubleLinkList<E>
 }
 class DoubleLinkList <E>{
-    + add(E)
+    + add(E data)
     + set(E, int)
     + clear()
     + size() : int
     + get() : E
 }
 class Nodo{
-    int dato;
-    Nodo siguiente;
-    Nodo anterior;
-    Nodo(int d)
-        dato = d;
-        siguiente = null;
-        anterior = null;
+    - E data;
+    - siguiente;
+    - anterior;
+    + Nodo(e data)
+    + setDato(e data): void
+    + getDato(): E
+    + setAnterior(Nodo<E> anterior): Nodo<E>
+    + getAnterior(): Nodo<E>
+    + setSiguiente(Nodo<E> siguiente): Nodo<E>
+    + getSiguiente(): Nodo<E>
+
+
+
 }
 
 @enduml
