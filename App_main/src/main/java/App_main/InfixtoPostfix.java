@@ -1,6 +1,6 @@
 package App_main;
 import java.util.Stack;
-public class InfixtoPostfix{
+public class Interprete{
 public static String infixToPostfix(String expresion) {
     
     Stack<Character> pila = new Stack<>();
@@ -29,9 +29,8 @@ public static String infixToPostfix(String expresion) {
     return postfix;
     }
 
-    public static boolean Operator(char c) {
+    private static boolean Operator(char c) {
 
-        return false;
     }
 
     public static boolean isOperator(char c) {
