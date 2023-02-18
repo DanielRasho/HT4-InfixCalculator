@@ -16,15 +16,16 @@ public static String infixToPostfix(String expresion) {
             pila.push(c);
         } else if (c == ')') {
             while (!pila.isEmpty() && pila.peek() != '(') {
+                postfix +=" ";
                 postfix += pila.pop();
             }
             pila.pop();
-            postfix +=" ";
         } else {
             postfix += c;
         }
     }
     while (!pila.isEmpty()) {
+        postfix +=" ";
         postfix += pila.pop();
     }
     return postfix;
