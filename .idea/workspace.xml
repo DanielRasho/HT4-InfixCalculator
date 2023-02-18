@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Temporal">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/InfixtoPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/InfixtoPostfix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +161,6 @@
       <workItem from="1676585815555" duration="12089000" />
       <workItem from="1676655109021" duration="838000" />
       <workItem from="1676656826458" duration="176000" />
-      <workItem from="1676762712951" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
       <created>1676595470250</created>
@@ -198,14 +197,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676596197402</updated>
     </task>
-    <task id="LOCAL-00006" summary="Temporal">
-      <created>1676659722673</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1676659722673</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,8 +220,7 @@
     <MESSAGE value="New Class: InfixTranslator for translating expression from infix." />
     <MESSAGE value="New Classes: Stack Implementations, and along with its own Stack Factory" />
     <MESSAGE value="Add Documentation: README and UML diagram created." />
-    <MESSAGE value="Temporal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Temporal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Documentation: README and UML diagram created." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
