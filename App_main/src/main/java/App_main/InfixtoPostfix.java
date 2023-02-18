@@ -1,6 +1,6 @@
 package App_main;
 import java.util.Stack;
-public class Interprete{
+public class InfixtoPostfix{
 public static String infixToPostfix(String expresion) {
     
     Stack<Character> pila = new Stack<>();
