@@ -50,7 +50,7 @@ public class Calculator implements ICalculator {
 
     /**
      *
-     * @return El resultado de la última expresion hecha.
+     * @return El resultado de la ultima expresion hecha.
      */
     @Override
     public double getPrevious() {

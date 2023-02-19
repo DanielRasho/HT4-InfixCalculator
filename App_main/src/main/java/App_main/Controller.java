@@ -11,11 +11,28 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/** Controls input data, and the calculator that operate it
+ * it can only exist one instance of a Controller.*/
 public class Controller {
-    File operationFile;
+    private static File operationFile;
+    private static Controller instance;
 
-    public Controller (File file){
+    /**
+     * Constructor
+     * @param file File to read operations from.
+     */
+    private Controller (File file){
         this.operationFile = file;
+    }
+
+    /**
+     * Controller Singleton, keeps only one controller instance in the context.
+     * @param file File to read operations from.
+     */
+    public static Controller getInstance (File file) {
+        if (instance == null)
+            instance = new Controller(file);
+        return instance;
     }
 
     /** Runs the calculator by fetching the info, to then calculate it*/
