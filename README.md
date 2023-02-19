@@ -18,9 +18,20 @@ Elaborado con java 17 y maven.
 
 ## Singleton SI o NO? 🤨
 
-Se termino usando Sigleton para la clase `Controller` como una medidad para asegurarse que no hubiera más de un controlador del programa en toda la ejecución. 
+Se termino usando Sigleton para la clase `Controller` como una medida para asegurar que no hubiera más de un controlador del programa en toda la ejecución. 
 
-Y de su uso se puede concluir que el patrón Sigleton es muy facil de implementar, pero su uso indiscriminado puede ser contrapoducente, porque dificulta el testeo con Pruebas Unitarias, Y SOLO POCAS clases necesitan instanciarse una sola vez.
+Las ventajas que tiene usar este patrón son: 
+- Permite un acceso global a la instancia
+- Uso limitado del número de instancias
+- Garantizar que solo haya una instancia de la clase en el programa
+
+Mientras que las desventajas de usarlo son: 
+- Si se necesita multiples instancias de una clase genera problemas
+- A la hora de probarlo es difícil, por ser una instancia única puede interferir con otras pruebas.
+
+Y de su uso se puede concluir que el patrón Sigleton es muy fácil de implementar, pero su uso indiscriminado puede ser contrapoducente, porque dificulta el testeo con Pruebas Unitarias, Y SOLO POCAS clases necesitan instanciarse una sola vez. 
+
+Por lo cual se puede decir que es un buen patrón de usar siempre y cuando se usa cuando se tenga que garanticar que solo exista una instancia de una clase en el programa.
 
 ---
 
