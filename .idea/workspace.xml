@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
-      <change beforePath="$PROJECT_DIR$/classesUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
-    </list>
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
