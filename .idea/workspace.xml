@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/Nodo.java" afterDir="false" />
-    </list>
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Javadoc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +222,7 @@
       <workItem from="1676746917553" duration="7338000" />
       <workItem from="1676766804519" duration="3467000" />
       <workItem from="1676780699961" duration="281000" />
-      <workItem from="1676780993949" duration="1474000" />
+      <workItem from="1676780993949" duration="1878000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
       <created>1676595470250</created>
@@ -269,7 +266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676763739202</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Documentation: README and UML diagram created.">
+      <created>1676782505993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676782505993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Javadoc">
+      <created>1676782667292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676782667292</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,9 +302,10 @@
     <MESSAGE value="Feature: Program now can read from external files to get operands." />
     <MESSAGE value="New Class: InfixTranslator for translating expression from infix." />
     <MESSAGE value="New Classes: Stack Implementations, and along with its own Stack Factory" />
-    <MESSAGE value="Add Documentation: README and UML diagram created." />
     <MESSAGE value="Nodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nodo" />
+    <MESSAGE value="Add Documentation: README and UML diagram created." />
+    <MESSAGE value="Javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javadoc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
