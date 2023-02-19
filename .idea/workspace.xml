@@ -7,11 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
-      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/Stack/StackedDoubleLinkedListTest.java" afterDir="false" />
+    <list default="true" id="b3171081-6316-438c-8111-c2d01eb86b73" name="Changes" comment="Add Documentation: README and UML diagram created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/testData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/testData.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,25 @@
       <recent name="App_main" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.StackedDoubleLinkedListTest.pop">
+=======
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App_main.App" />
+      <module name="App_main" />
+      <option name="PROGRAM_PARAMETERS" value="./App_main/testData.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 676e491 (Feature: Implementing controller as a Singleton)
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App_main" />
       <extension name="coverage">
@@ -196,11 +215,19 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.pop" />
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.size" />
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.add" />
         <item itemvalue="JUnit.InfixTranslatorTest" />
         <item itemvalue="JUnit.CalculatorTest" />
+=======
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.InfixTranslatorTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.InfixTranslatorTest.testIsOperator" />
+        <item itemvalue="JUnit.ListStackTest" />
+>>>>>>> 676e491 (Feature: Implementing controller as a Singleton)
       </list>
     </recent_temporary>
   </component>
