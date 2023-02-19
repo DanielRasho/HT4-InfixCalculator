@@ -34,8 +34,7 @@ ListStack <-- "inherits" StackedVector
 ListStack <-- "inherits" StackedLinkedList
 ListStack <-- "inherits" StackedDoubleLinkedList
 
-StackedDoubleLinkedList *-- DoubleLinkList
-Nodo <|-- "inherits" DoubleLinkList
+Nodo <|-- "inherits" StackedDoubleLinkedList
 class App {
     + main(String[] args)
 }
@@ -97,14 +96,13 @@ class StackedLinkedList{
 }
 class StackedDoubleLinkedList{
     - data : DoubleLinkList<E>
-}
-class DoubleLinkList <E>{
     + add(E data)
     + set(E, int)
     + clear()
     + size() : int
     + get() : E
 }
+
 class Nodo{
     - E data;
     - siguiente;
