@@ -21,7 +21,7 @@ public class Nodo<E>{
     }*/
 
     /**
-     * Crear la estructura de los Nodos.
+     * Crea la estructura de los Nodos.
      * @param data
      * @param <E>
      */
