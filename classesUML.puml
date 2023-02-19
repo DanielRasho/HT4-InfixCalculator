@@ -17,8 +17,6 @@ class StackedVector
 interface Stack<E> <<interface>>
 abstract class ListStack
 
-class DoubleLinkList
-
 
 App <-- Controller
 Controller *-- StackFactory
