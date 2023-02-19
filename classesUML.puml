@@ -96,16 +96,8 @@ class StackedVector{
 class StackedLinkedList{
     - data : LinkedList<E>
 }
-<<<<<<< Updated upstream
-class StackedDoubleLinkedList{
-    - data : DoubleLinkList<E>
-    + add(E data)
-    + set(E, int)
-    + clear()
-=======
 
 class StackedDoubleLinkedList <E>{
->>>>>>> Stashed changes
     + size() : int
     + pop() : E
     + add (E)
