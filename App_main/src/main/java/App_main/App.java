@@ -24,7 +24,7 @@ public class App
             }
         // IF FILE EXIST, START PROGRAM!
             else{
-                Controller controller = new Controller(operationsFile);
+                Controller controller = Controller.getInstance(operationsFile);
                 controller.start();
             }
         }

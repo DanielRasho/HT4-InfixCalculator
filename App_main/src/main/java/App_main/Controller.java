@@ -11,11 +11,28 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+/** Controls the program execution and calculations. Can only be instantiated once.*/
 public class Controller {
-    File operationFile;
+    private File operationFile;
+    private static Controller instance;
 
+    /**
+     * Constructor
+     * @param file file to read operation from.
+     */
     public Controller (File file){
         this.operationFile = file;
+    }
+
+    /**
+     * Singleton implementation for Controller
+     * @param file File to read operation from.
+     * @return Controller unique instance.
+     */
+    public static Controller getInstance (File file){
+        if(instance == null)
+            instance = new Controller(file);
+        return instance;
     }
 
     /** Runs the calculator by fetching the info, to then calculate it*/
