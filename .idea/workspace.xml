@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Nodo">
+    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/InfixtoPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/InfixtoPostfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,9 @@
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Lhdk5OA5OYpJwLWI8S4OsIktbB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -176,6 +180,7 @@
       <workItem from="1676656826458" duration="176000" />
       <workItem from="1676745490614" duration="400000" />
       <workItem from="1676746917553" duration="7338000" />
+      <workItem from="1676766804519" duration="3467000" />
     </task>
     <task id="LOCAL-00001" summary="Feature: Now Calculator can work with operands bigger than 9.">
       <created>1676595470250</created>
