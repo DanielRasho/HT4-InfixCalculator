@@ -11,7 +11,8 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-/** Controls input data, and the calculator that operate it.*/
+/** Controls input data, and the calculator that operate it
+ * it can only exist one instance of a Controller.*/
 public class Controller {
     private static File operationFile;
     private static Controller instance;
