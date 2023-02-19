@@ -1,5 +1,9 @@
 package App_main.model.Stack;
 
+/**
+ * Crea la clase nodos
+ * @param <E> Expresion
+ */
 public class Nodo<E>{
     public E data;
     // clase nodo para las listas doblemente enlazadas/encadenadas
@@ -16,6 +20,12 @@ public class Nodo<E>{
 
     }*/
 
+    /**
+     * Crear la estructura de los Nodos.
+     * @param data
+     * @param <E>
+     */
+
     public <E> Nodo(E data) {
         //this.data= data;
         //this.data = new ArrayList<>();
@@ -24,6 +34,10 @@ public class Nodo<E>{
         this.anterior = null;
     }
 
+    /**
+     * Declaramos los Get y sets para obtener y asignar valores.
+     * @param data
+     */
     //gets y sets
     public void setData(E data){
         this.data = data;
