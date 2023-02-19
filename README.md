@@ -38,6 +38,9 @@ Y de su uso se puede concluir que el patrón Sigleton es muy facil de implementa
 
 ![](media/howToUse.gif)
 
+##Nota
+- En caso que no corra el archivo .jar, deberá correr primero Java(TM) Platform SE binary para que Java reconozca el archivo
+
 ## UML
 
 ![](./classesUML.png)  
