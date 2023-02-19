@@ -55,7 +55,7 @@ public class StackedDoubleLinkedList<E> extends ListStack<E> implements Stack<E>
 
     //eliminar
     public E pop(int index){
-        if (index<0 ||index>=size){
+        if (index<0){
             throw new IndexOutOfBoundsException();
         }
 
