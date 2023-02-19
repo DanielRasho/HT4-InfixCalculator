@@ -3,7 +3,11 @@ package App_main.model;
 import java.util.Stack;
 
 public class InfixTranslator {
-    // Método que convierte una expresión en notación infija a notación postfija
+    /**
+    *Método que convierte una expresión en notación infija a notación postfija
+    *@param expression en la operacion que se convertira
+    *@return resultado de la expresion convertida a postfix
+    */
     public static String infixToPostFix(String expression) {
 
         Stack<Character> pila = new Stack<>();
@@ -39,11 +43,11 @@ public class InfixTranslator {
         
         return postfix.replaceAll(" +", " ");
     }
-    // Método que verifica si un carácter es un operador matemático
+    /** Método que verifica si un carácter es un operador matemático*/
     public static boolean isOperator(char c) {
         return c == '+' || c == '-' || c == '*' || c == '/' || c == '^';
     }
-     //Devuelve la precedencia de un operador matemático. Si el carácter no es un operador, devuelve 0.
+     /**Devuelve la precedencia de un operador matemático. Si el carácter no es un operador, devuelve 0.*/
     public static int precedence(char c) {
         if (c == '+' || c == '-') {
             return 1;
