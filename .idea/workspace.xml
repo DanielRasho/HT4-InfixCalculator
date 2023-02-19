@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
-      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/Stack/StackedDoubleLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Stack/StackedDoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/Stack/StackedDoubleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/Stack/StackedDoubleLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,22 +107,7 @@
       <recent name="App_main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackedDoubleLinkedListTest.pop">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="App_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="App_main.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="App_main.model" />
-      <option name="MAIN_CLASS_NAME" value="App_main.model.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StackedDoubleLinkedListTest.getActual">
     <configuration name="InfixTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App_main" />
       <extension name="coverage">
@@ -150,6 +134,22 @@
       <option name="PACKAGE_NAME" value="App_main.model.Stack" />
       <option name="MAIN_CLASS_NAME" value="App_main.model.Stack.StackedDoubleLinkedListTest" />
       <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackedDoubleLinkedListTest.getActual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model.Stack" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.Stack.StackedDoubleLinkedListTest" />
+      <option name="METHOD_NAME" value="getActual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -189,18 +189,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.add" />
+      <item itemvalue="JUnit.StackedDoubleLinkedListTest.getActual" />
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.pop" />
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.size" />
       <item itemvalue="JUnit.InfixTranslatorTest" />
-      <item itemvalue="JUnit.CalculatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackedDoubleLinkedListTest.getActual" />
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.pop" />
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.size" />
         <item itemvalue="JUnit.StackedDoubleLinkedListTest.add" />
         <item itemvalue="JUnit.InfixTranslatorTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,7 +1,9 @@
 package App_main.model.Stack;
 import java.util.ArrayList;
+import java.util.List;
+
 public class StackedDoubleLinkedList<E> extends ListStack<E> implements Stack<E> {
-    //Nodo<E> nodo =new Node<>();
+    //Nodo<E> node =new Nodo<>();
     private static class Nodo<E>{
         E data;
         Nodo<E>  anterior;
@@ -82,6 +84,21 @@ public class StackedDoubleLinkedList<E> extends ListStack<E> implements Stack<E>
 
         return data;
     }
+
+    public void Clear(){
+        this.data= null;
+        primero= null;
+        ultimo  = null;
+        size= 0;
+    }
+
+    public List<E> getData(){
+        return data;
+    }
+    public void setData(){
+        this.data= data;
+    }
+
 
 
 }

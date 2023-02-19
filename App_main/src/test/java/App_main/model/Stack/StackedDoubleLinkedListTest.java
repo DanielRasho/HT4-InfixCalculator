@@ -35,4 +35,15 @@ public class StackedDoubleLinkedListTest {
         stack.add("3");
         assertEquals(stack.pop(1), "2");
     }
+
+    @Test
+    public void Clear() {
+        StackedDoubleLinkedList<String> stack = new StackedDoubleLinkedList<String>();
+        stack.add("1");
+        stack.add("2");
+        stack.add("3");
+        stack.clear();
+        assertEquals( stack.size, 0);
+    }
+
 }
