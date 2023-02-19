@@ -7,8 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
       <change beforePath="$PROJECT_DIR$/classesUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
+=======
+    <list default="true" id="b3171081-6316-438c-8111-c2d01eb86b73" name="Changes" comment="Add Documentation: README and UML diagram created.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesUML.png" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/classesUML.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +75,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Class&quot;,
@@ -84,6 +95,27 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/home/smaugthur/Others/MyDocs/COLLEGE/SEMESTERS/3-2022/ALGORITMOS/HOMEWORK/HT4/HT4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
@@ -96,6 +128,9 @@
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="App_main.model.Stack" />
       <recent name="App_main.model" />
@@ -105,7 +140,40 @@
       <recent name="App_main" />
     </key>
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="JUnit.StackedDoubleLinkedListTest.getActual">
+=======
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App_main.App" />
+      <module name="App_main" />
+      <option name="PROGRAM_PARAMETERS" value="./App_main/testData.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> Stashed changes
     <configuration name="InfixTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App_main" />
       <extension name="coverage">
@@ -185,7 +253,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HT4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HT4" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.add" />
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.getActual" />
       <item itemvalue="JUnit.StackedDoubleLinkedListTest.pop" />
@@ -194,11 +276,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackedDoubleLinkedListTest.getActual" />
-        <item itemvalue="JUnit.StackedDoubleLinkedListTest.pop" />
-        <item itemvalue="JUnit.StackedDoubleLinkedListTest.size" />
-        <item itemvalue="JUnit.StackedDoubleLinkedListTest.add" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.InfixTranslatorTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>

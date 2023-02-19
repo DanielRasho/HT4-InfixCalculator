@@ -34,7 +34,8 @@ ListStack <-- "inherits" StackedVector
 ListStack <-- "inherits" StackedLinkedList
 ListStack <-- "inherits" StackedDoubleLinkedList
 
-Nodo <|-- "inherits" StackedDoubleLinkedList
+StackedDoubleLinkedList *-- Nodo
+
 class App {
     + main(String[] args)
 }
@@ -49,6 +50,7 @@ class InfixTranslator{
 
 class Controller {
     - operationFile : File
+    + getInstance() : Controller
     + start()
     - fileToList(String, String): ArrayList<String>
 }
@@ -94,13 +96,19 @@ class StackedVector{
 class StackedLinkedList{
     - data : LinkedList<E>
 }
+<<<<<<< Updated upstream
 class StackedDoubleLinkedList{
     - data : DoubleLinkList<E>
     + add(E data)
     + set(E, int)
     + clear()
+=======
+
+class StackedDoubleLinkedList <E>{
+>>>>>>> Stashed changes
     + size() : int
-    + get() : E
+    + pop() : E
+    + add (E)
 }
 
 class Nodo{
@@ -114,9 +122,6 @@ class Nodo{
     + getAnterior(): Nodo<E>
     + setSiguiente(Nodo<E> siguiente): Nodo<E>
     + getSiguiente(): Nodo<E>
-
-
-
 }
 
 @enduml

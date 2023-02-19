@@ -4,6 +4,7 @@ import App_utils.printer.AnsiColors;
 
 import java.io.File;
 
+/**Class for starting execution*/
 public class App 
 {
     /** Starts execution by getting the file where operations are*/

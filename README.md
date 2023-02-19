@@ -16,22 +16,28 @@ Elaborado con java 17 y maven.
 
 - Diego Linares 221256
 
+## Singleton SI o NO? 🤨
+
+Se termino usando Sigleton para la clase `Controller` como una medidad para asegurarse que no hubiera más de un controlador del programa en toda la ejecución. 
+
+Y de su uso se puede concluir que el patrón Sigleton es muy facil de implementar, pero su uso indiscriminado puede ser contrapoducente, porque dificulta el testeo con Pruebas Unitarias, Y SOLO POCAS clases necesitan instanciarse una sola vez.
+
 ---
 
 ## Cómo ejecutarlo?
 
-1. Escribir los datos para operar en un fichero.
+1. Escribir los **operaciones matemáticas** para trabajar en un fichero.
 
-2. Ejecutar el codigo ubicado en `App_main/target/classes` con el siguiente comando:
+2. Ejecutar de contenido en `Calculadora.jar` con el siguiente comando:
    
-   ```bash
-   java -jar <Projecto.jar> <ruta>
+   ```javascript
+   java -jar <Projecto.jar> <Ruta de archivo con operaciones>
    Ejemplo:
-   java -jar App_main-1.0-SNAPSHOT.jar ./datos.txt
+   java -jar Calculadora.jar ./datos.txt
    ```
+
+![](media/howToUse.gif)
 
 ## UML
 
 ![](./classesUML.png)  
-
-
