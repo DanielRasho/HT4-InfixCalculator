@@ -44,7 +44,7 @@ Por lo cual se puede decir que es un buen patrón de usar siempre y cuando se us
    ```javascript
    java -jar <Projecto.jar> <Ruta de archivo con operaciones>
    Ejemplo:
-   java -jar Calculadora.jar ./datos.txt
+   java -jar Calculadora.jar ./operaciones.txt
    ```
 
 ![](media/howToUse.gif)
