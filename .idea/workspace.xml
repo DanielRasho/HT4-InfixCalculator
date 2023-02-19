@@ -7,8 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd706d9b-6772-4dd3-869c-1c091bfbf194" name="Changes" comment="Add Documentation: README and UML diagram created.">
+    <list default="true" id="b3171081-6316-438c-8111-c2d01eb86b73" name="Changes" comment="Add Documentation: README and UML diagram created.">
+      <change afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/InfixTranslatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/InfixtoPostfix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/InfixTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/main/java/App_main/model/InfixTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/App_main/InfixtoPostfixTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/App_main/src/test/java/App_main/model/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/App_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/test/java/org/project/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_utils/src/test/java/org/project/InfixtoPostfixTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="UML Class" />
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -94,15 +104,15 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="App_main.model.Stack" />
       <recent name="App_main.model" />
+      <recent name="App_main.model.Stack" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="App_main.model.Stack" />
       <recent name="App_main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.InfixTranslatorTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App_main.App" />
       <module name="App_main" />
@@ -132,6 +142,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InfixTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.InfixTranslatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixTranslatorTest.testIsOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="App_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="App_main.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="App_main.model" />
+      <option name="MAIN_CLASS_NAME" value="App_main.model.InfixTranslatorTest" />
+      <option name="METHOD_NAME" value="testIsOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="App_main" />
       <extension name="coverage">
@@ -149,14 +190,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.InfixTranslatorTest" />
+      <item itemvalue="JUnit.InfixTranslatorTest.testIsOperator" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.ListStackTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InfixTranslatorTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.InfixTranslatorTest.testIsOperator" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.ListStackTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>

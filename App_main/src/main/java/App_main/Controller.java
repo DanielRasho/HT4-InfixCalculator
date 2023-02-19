@@ -22,7 +22,7 @@ public class Controller {
     public void start(){
         // Fetching data
         List<String> operations = fileToList(this.operationFile, "\n");
-        Stack<Double> selectedStack = StackFactory.getStack();
+        Stack<Double> selectedStack = StackFactory.getStack();      // DISPLAY MENU TO CHOOSE STACK IMPLEMENTATION
         Calculator calculator = new Calculator(selectedStack);
 
         // Calculating
@@ -36,7 +36,7 @@ public class Controller {
     }
 
     /**
-     * Reads a file an return it as an array of tokens
+     * Reads a file and return it as an array of tokens
      * @param file File to read.
      * @param separator String that define where a Token end.
      * @return List of tokens.
