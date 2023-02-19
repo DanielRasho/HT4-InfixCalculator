@@ -1,3 +1,12 @@
+/*
+* Hoja de trabajo #4
+* Integrantes:
+*               - Daniel Rayo #22933
+*               - Angela García #22869
+*               - Edwing de León #22809
+*               - Diego Linares #221256
+*
+* */
 package App_main;
 
 import App_utils.printer.AnsiColors;
